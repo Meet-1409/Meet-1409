@@ -1,72 +1,55 @@
 # Meet Sutariya
 
-**AI & Machine Learning | Software Engineering | Cloud-minded Web Development**
+**Computer Engineer | Applied AI, Machine Learning & Software Engineering**
 
-I build practical software at the intersection of machine learning and backend engineering, with an emphasis on clear user experiences and responsible technical decisions.
+I build thoughtful, user-focused applications that connect machine learning, natural-language processing, and dependable backend workflows.
 
 ## About Me
 
-I am interested in turning machine-learning ideas into useful applications and building the systems around them. My work ranges from an experimental image-manipulation detector to a multi-role event-management platform, with a focus on Python, web development, and reliable application design.
+I am a Computer Engineer interested in turning research-informed ideas into practical software. My projects span explainable NLP, computer-vision experimentation, and web applications, with attention to usability, transparent model behavior, and real-world implementation constraints.
 
 ## Technical Skills
 
-| Area | Technologies |
-| --- | --- |
-| **Languages** | Python, JavaScript, HTML, CSS |
-| **AI & Machine Learning** | TensorFlow, Keras, OpenCV, NumPy, scikit-learn, MesoNet-style CNNs |
-| **Web Development** | Django, Django REST Framework, Flask, Django Channels, WebSockets, server-rendered templates |
-| **Cloud & Deployment (exploring)** | Environment-based configuration, Gunicorn, WhiteNoise; optional S3, Redis, and Celery integration paths |
-| **Databases & Storage** | SQLite, MySQL, local CSV feedback storage |
-| **Tools & Integrations** | Git, GitHub, Stripe, SpeechRecognition, pyttsx3 |
+**Languages:** Python, JavaScript, HTML, CSS
+
+**AI, Machine Learning & NLP:** TensorFlow, Keras, OpenCV, scikit-learn, NLTK, TF-IDF, LIME, NumPy, pandas
+
+**Application Development:** Django, Django REST Framework, Django Channels, Flask, Streamlit, WebSockets
+
+**Data & Integrations:** SQLite, MySQL, Stripe, NewsAPI, SpeechRecognition, pyttsx3
+
+**Tools:** Git, GitHub, environment-based configuration
 
 ## Featured Projects
 
+### [VeriNews](https://github.com/Meet-1409/VeriNews)
+
+An academic Streamlit prototype for fake-news classification and related-news exploration. It combines a local TF-IDF classifier, LIME word-level explanations, NewsAPI retrieval with publisher fallbacks, and local SQLite history; optional OpenAI and Perplexity evidence briefs run when configured. Results are presented as model signals, not definitive fact checks.
+
 ### [Event Management Platform](https://github.com/Meet-1409/Event-Management-Platform)
 
-A full-stack Django application for discovering events and venues, registering attendees, coordinating work across role-based dashboards, and recording payments.
-
-- **Built with:** Python, Django, Django REST Framework, Django Channels, WebSockets, Stripe, SQLite/MySQL, HTML, CSS, and JavaScript.
-- **Highlights:** Custom email-based authentication, role-aware workflows, REST endpoints, an authenticated WebSocket chat route, invoices and payment records, refunds, and PDF report generation.
+A Django application for event and venue discovery, registration, role-based workflows, and payment records. It includes custom email authentication, Django REST Framework endpoints, an authenticated WebSocket chat route, Stripe webhook handling, invoices, refunds, and PDF report generation.
 
 ### [Real-Lens AI](https://github.com/Meet-1409/Deepfake-Detector)
 
-A local web application for experimenting with image-manipulation detection using a MesoNet-style classifier and OpenCV-based image signals.
-
-- **Built with:** Python, Flask, TensorFlow/Keras, OpenCV, NumPy, scikit-learn, HTML, CSS, and JavaScript.
-- **Highlights:** Image upload workflow, explicit preprocessing, binary `Real`/`Edited` predictions, confidence display, local feedback collection, and a manual retraining path.
-- **Note:** This is an experimental research and portfolio project, not a forensic verification service.
-
-### [VIRUS Voice Assistant](https://github.com/Meet-1409/Virus-Voice-Assistant)
-
-A local, command-line voice assistant for hands-free personal productivity and computer control.
-
-- **Built with:** Python, SpeechRecognition, and pyttsx3.
-- **Highlights:** Voice-controlled task management, timers, alarms, reminders, calculations, system monitoring, and application control, with data stored locally.
+A local Flask research demo for image-manipulation detection. The application preprocesses image uploads, runs a TensorFlow/Keras Meso4 model alongside OpenCV signals, and supports local feedback with a manual retraining path. It is an experimental tool, not a forensic verification service.
 
 ## Research
 
-**Applied ML exploration: image-manipulation detection.** Through Real-Lens AI, I am exploring how a MesoNet-style CNN can be connected to a usable browser workflow: image preprocessing, TensorFlow/Keras inference, OpenCV signals, confidence reporting, and local feedback. I document the project's limitations and treat model outputs as estimates, not proof - an important distinction for responsible use of detection systems.
+**Smart Salinity Surveillance: A Fusion of IoT and ML** - Co-authored research paper proposing an IoT-enabled healthcare monitoring system for IV fluid levels, SpO2, temperature, and patient movement. The proposed architecture combines sensor data, cloud storage, and machine-learning analysis to surface flow-blockage and physical-anomaly alerts for clinical teams.
 
 ## Certifications
 
-No personal certifications are documented in the public repositories at present. I keep this section limited to credentials that can be verified.
+- **AWS Cloud Practitioner Essentials** - AWS Training & Certification, completed January 13, 2026
+- **Python for Data Science** - NPTEL, 4-week course, July-August 2024
 
-## Current Focus
+## Currently Building
 
-- Building more reliable ML application workflows, including preprocessing, evaluation, and clear communication of model limitations.
-- Deepening backend engineering with Django APIs, authentication, WebSockets, and payment workflows.
-- Learning how deployment-oriented components such as S3 storage, Redis, Celery, and production WSGI serving fit into web applications.
-
-## GitHub Activity
-
-<a href="https://github.com/Meet-1409?tab=repositories">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Meet-1409&show_icons=true&hide_title=true&hide_rank=true&theme=transparent&hide_border=true" alt="Meet Sutariya's GitHub statistics" />
-</a>
+- Refining **VeriNews**, a local and explainable NLP workflow for fake-news classification, related-news retrieval, and research-oriented evidence summaries.
+- Extending web-application workflows around authentication, REST endpoints, WebSocket chat, and payment records in the **Event Management Platform**.
+- Exploring transparent image-analysis workflows and responsible communication of model limitations through **Real-Lens AI**.
 
 ## Contact
 
-> Replace these placeholders with your preferred public contact details before publishing.
-
-- LinkedIn: `https://www.linkedin.com/in/your-profile`
-- Email: `your.email@example.com`
-- Portfolio: `https://your-portfolio.example`
+- [LinkedIn](https://www.linkedin.com/in/meet-sutariya-148a16288)
+- [meetsutariya@gmail.com](mailto:meetsutariya@gmail.com)
