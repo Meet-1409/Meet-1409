@@ -51,5 +51,5 @@ A local Flask research demo for image-manipulation detection. The application pr
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/meet-sutariya-148a16288)
-- [meetsutariya@gmail.com](mailto:meetsutariya@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/meetsutariya14)
+- [sutariyameet14@gmail.com](mailto:sutariyameet14@gmail.com)
